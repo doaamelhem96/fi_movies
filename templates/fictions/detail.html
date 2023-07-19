@@ -1,0 +1,9 @@
+{% extends '_base.html' %}
+{% block content %}
+<H1>Fiction_Details</H1>
+<h3>Title: {{ fiction.title }}</h3>
+<h3>Purchaser: {{ fiction.purchaser }}</h3>
+<h3>Description: {{ fiction.description|capfirst }}</h3>
+<a href="{% url 'fiction_update' fiction.pk %}">+ Update fiction</a>
+<a href="{% url 'fiction_delete' fiction.pk %}">+ Delete fiction</a>
+{% endblock %}
