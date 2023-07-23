@@ -3,7 +3,7 @@
 ## Author
     **Dua'a Melhem
 
-## How to initialize/run the django_snacks
+## How to initialize/run the fi_movies
     **python managae.py runserver
 
 ## Setup .env requirements
