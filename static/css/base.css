@@ -14,10 +14,10 @@ html {
 .card-img-top
 {
   text-align: center;
-  width:210px;
+  width:200px;
   border-style: groove;
-  border-radius: 150px;
-  border-color: yellow;
+  border-radius: 180px;
+  border-color:rgb(2, 180, 255);
 }
 body {
   margin-bottom: 60px; /* Margin bottom by footer height */

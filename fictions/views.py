@@ -21,4 +21,4 @@ class UpdatesViews(UpdateView):
 class DeletesViews(DeleteView):
     template_name='fictions/delete.html'
     model=Fiction
-    success_url=reverse_lazy("listmovie")
+    success_url=reverse_lazy("movie_list")
